@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-09-14T14:14:54.734073+00:00",
+  "sha256": {
+    "configs/ablation/A.json": "35ba6340a1f96311122f45770692c979dc51dd9af7afc81bcafd2dba8094f568",
+    "configs/ablation/B.json": "d5665397734a6b46bed8af170f712001001e20cfd8739bab36ebadbaa441d3f0",
+    "configs/ablation/C.json": "59825e99f28467d8daf7ea84e76f0fd095fcaed1de26bf14ddd0bc95d0fd5062",
+    "configs/default.json": "a948ccaf94fbbe23824272e61925105147597c5a9007c91171d3cc820d856573",
+    "data/test_seq256.meta.json": "70bdcffe3791e40c3a42c49153bce5a0991871a010cc576064749391f7005c6b",
+    "data/test_tokens_seq256.bin": "5aeb55fee50429bf30b51c19bb1962e0e6b39ab0150319333e848b86553e18b6",
+    "data/train_seq256.meta.json": "d6eb0001efc09983e1e92cbc26c2dab76dcfba996c471b793391f7d1584fa362",
+    "data/train_tokens_seq256.bin": "d59025387bc40abf850a7cefb9dd3afdc5105d8942fbd1716465e6d42127828b",
+    "data/val_seq256.meta.json": "64ceaee77101e00fd24da29685742d831784931fe73e7a9da7bb25ff5a07e817",
+    "data/val_tokens_seq256.bin": "7c552e8db5fbd780df0791ede7d2a2fe5fb078025cf9fcd47f7c1bd7e7f957e0",
+    "experiments/ablation/prompts.txt": "328ff2b349b8cdea393dcc259a954294e14d67756126d9ab0e0f25c296f01cff",
+    "experiments/ablation/run.py": "aa63967b9141404cfd4e12b1d8518f027c4206d1171dde854671c25f1561daa5",
+    "src/__init__.py": "3ad0d5c3a6db306bb617e755135138f39d188db3495d74ccc850e200cff1f7ef",
+    "src/analyze_tokenizers.py": "8258d0f701187ba2e6ef5e8052f91e406c6883879ddfb3acf18f5468a1232b88",
+    "src/benchmark_generation.py": "ae6c4eed8852b782c67ff7081e71a2c38df7febaea1f927c25742855bad9635a",
+    "src/config_utils.py": "cc7e45e40b1a7cb5ac8fb080d009bac7f6df8d045b7d8b8d58fd93571500d92d",
+    "src/download_data.py": "ebd1b27b62eb4712cc7f5c37d1d006d4c9837321ca841223734b5d9554b03d71",
+    "src/evaluate.py": "0bbbe3a064cfd1c4ff7c3ace58aa55103b9f26072b7b2e74561f653e2f038af6",
+    "src/experiment_utils.py": "4399f2c590cccb80946b4b09356ba59456b7a3eea083acad494374112531d007",
+    "src/generate.py": "598049b5407ab7a2a416f8a69803426946cd3b0bcfd449ccb7b8a5f99bd199e9",
+    "src/model.py": "e1a601f8cc2c46e140a22e40547e31a40e2fb1c061f9cc14662775b53d08a134",
+    "src/prepare_dataset.py": "2013d5465a4f0d0e43c89ca979b09cd95e43672a30b1201bbc38792706bcead8",
+    "src/tokenizer_utils.py": "8b6ae2d165d51b28983119fe0524d25fd7ce1927d2971b2df26b3c405285684a",
+    "src/train.py": "c591bdb48457d889182066d8d7a1709a2ecb43b16121155484ea401a5f8a7fca"
+  }
+}

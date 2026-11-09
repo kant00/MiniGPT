@@ -1,0 +1,38 @@
+{
+  "format_version": 1,
+  "download_data": {
+    "max_articles": 300
+  },
+  "prepare_dataset": {
+    "seq_len": 64,
+    "val_ratio": 0.15,
+    "test_ratio": 0.1,
+    "max_tokens": 20000,
+    "max_document_tokens": 96,
+    "tokenizer": "google-bert/bert-base-chinese"
+  },
+  "train": {
+    "seq_len": 64,
+    "epochs": 1,
+    "batch_size": 8,
+    "amp": "off",
+    "baseline_batches": 0,
+    "run_name": "quickstart",
+    "d_model": 64,
+    "n_heads": 4,
+    "n_layers": 2,
+    "d_ff": 128
+  },
+  "evaluate": {
+    "checkpoint": "outputs/runs/quickstart/checkpoints/best_model.pt",
+    "split": "test",
+    "batch_size": 8,
+    "amp": "off"
+  },
+  "generate": {
+    "checkpoint": "outputs/runs/quickstart/checkpoints/best_model.pt",
+    "tokenizer": "google-bert/bert-base-chinese",
+    "prompt": "人工智能的发展",
+    "max_new_tokens": 24
+  }
+}

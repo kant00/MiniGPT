@@ -1,0 +1,37 @@
+# 语料、训练产物和本地实验锁
+/data/
+/outputs/
+/local-models/
+/experiments/ablation/protocol_lock.json
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.log
+*.part
+*.tmp
+
+# 私人笔记、第三方课程副本与独立 API 示例
+/docs/interview/
+/my.md
+/readme
+/tokenizer_bpe.ipynb
+/configs/deepseek_chat_demo/
+
+# 本地环境、密钥和缓存
+.env
+.env.*
+*.pem
+*.key
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
